@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0" />
+    <title>Local storage</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Local storage of variable from Web Page</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="wrapper">
+          <h2>Sign Up</h2>
+          <form method="post">
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="anu@gmail.com"
+              />
+            </div>
+            <div class="input-group">
+              <label for="password">Paasword</label>
+              <input
+                for="password"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="anu12345"
+              />
+            </div>
+            <div id="msg">
+              <button id="signup">Sing Up</button>
+            </div>
+
+            <h2 id="h1status">Status</h2>
+          </form>
+        </div>
+
+        <div class="wrapper">
+          <h2>Last Registered User:</h2>
+          <p><strong>Email:</strong><span id="user-email"></span></p>
+          <p><strong>Password:</strong><span id="user-password"></span></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h4>Mad by Anuja</h4>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
